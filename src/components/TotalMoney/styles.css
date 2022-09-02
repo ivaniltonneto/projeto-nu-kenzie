@@ -1,0 +1,16 @@
+.total {
+  background-color: #e34981;
+  width: calc(100% - 2 * 15px);
+  max-width: 430px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 20px 15px;
+  box-shadow: 0px 4px 32px -12px #00000040;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}

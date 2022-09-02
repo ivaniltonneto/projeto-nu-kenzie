@@ -1,0 +1,75 @@
+.Entrada {
+  border-left: 4px solid #03b898;
+}
+
+.Despesa {
+  border-left: 4px solid #e9ecef;
+}
+
+li {
+  list-style: none;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  width: 98%;
+  font-family: "Nunito", sans-serif;
+  margin: 5px 0;
+}
+
+li:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 42px -12px #00000040;
+}
+
+.li-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #212529;
+}
+
+.li-flex h3 {
+  margin-left: 15px;
+  width: 55%;
+  text-align: left;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.li-flex span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.trash-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  color: #868e96;
+  background-color: #e9ecef;
+  font-size: 12px;
+  width: 22px;
+  height: 22px;
+  border-radius: 2.5px;
+  cursor: pointer;
+}
+
+.trash-icon:hover {
+  background-color: #868e96;
+  color: #f8f9fa;
+}
+
+li p {
+  text-align: left;
+  color: #868e96;
+  margin: 0 0 0 15px;
+  padding: 0 0 11px 0;
+}
+
+@media screen and (min-width: 900px) {
+  li {
+    margin: 25px 0;
+  }
+}

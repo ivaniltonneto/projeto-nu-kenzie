@@ -1,0 +1,54 @@
+button {
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10.5px 10px;
+  font-family: "Nunito", sans-serif;
+  border: 1.4px solid #e9ecef;
+  background: #e9ecef;
+  color: #868e96;
+  font-weight: 600;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e34981;
+  color: #fff;
+  border: 1.4px solid #fd377e;
+}
+
+button:active {
+  color: #f8f9fa;
+  background-color: #868e96;
+}
+
+.inicial-button {
+  width: 200px;
+}
+
+.header-button {
+  /* background-color: #e9ecef;
+  color: #868e96; */
+  padding: 10.5px 15px;
+  margin: 0;
+}
+
+.form-button {
+  padding: 13px 20px 13px 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+}
+
+.list-button {
+  max-width: 85px;
+}
+
+@media screen and (min-width: 950px) {
+  button {
+    padding: 10.5px 10px;
+    margin: 0 8px;
+  }
+}
